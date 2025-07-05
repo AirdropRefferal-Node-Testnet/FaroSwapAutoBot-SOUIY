@@ -1,0 +1,30 @@
+{
+  "name": "faroswap-auto-bot",
+  "version": "1.0.0",
+  "description": "Automated bot for FaroSwap on Pharos Network Testnet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pharos",
+    "faroswap",
+    "testnet",
+    "automation"
+  ],
+  "author": "AirdropRefferal-Node-Testnet",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "blessed": "^0.1.81",
+    "chalk": "^5.3.0",
+    "ethers": "^6.10.0",
+    "figlet": "^1.7.0",
+    "https-proxy-agent": "^7.0.2",
+    "socks-proxy-agent": "^8.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
